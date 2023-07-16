@@ -10,5 +10,10 @@ public class swap2 {
         y=in.nextInt();
 
         System.out.println("Before Swapping\nx = "+x+"\ny="+y);
+        x=x+y;
+        y=x-y;
+        x=x-y;
+
+        System.out.println("After swapping\nx="+x+"\ny="+y);
     }
 }
