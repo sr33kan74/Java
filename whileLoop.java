@@ -1,6 +1,6 @@
 // while loop in java
 import java.util.Scanner;
-public class while {
+public class whileLoop {
     public static void main(String args[]) {
         int n;
 
