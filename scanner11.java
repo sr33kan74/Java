@@ -69,17 +69,56 @@ public class scanner11 {
 }
 */
 // java scanner practice
-
+/*
 import java.util.Scanner;
 public class scanner11 {
     public static void main(String [] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the numbers for addition");
         int a = sc.nextInt();
-        int b = sc.nextInt();  
+        int b = sc.nextInt();
         int sum = a + b;
-        System.ot.println( )
+        System.out.println(a + " + " + b + " = " + sum);
     }
 }
+*/
+// scanner class pratice! lets go
+/*
+import java.util.Scanner;
+ /*
+public class scanner11 {
+    public static void main (String [] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter two numbers to add");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int sum = a + b;
+        System.out.println(a + " + " + b + " = " + sum);
+    }
+}
+*/
+// practicing scanner class in java
+/* import java.util.Scanner;
+public class scanner11 {
+    public static void main (String [] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter two numbers to add");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int sum = a + b;
+        System.out.println(a + " + " + b + " = " + sum);
+    }
+}
+*/
+
+
+
+
+
+
+
+
+
 
 
 
