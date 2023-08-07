@@ -77,6 +77,7 @@ public class practice1 {
  */
 
 // praticing if else in java
+/*
 import java.util.Scanner;
 public class practice1 {
     public static void main (String [] args) { 
@@ -90,3 +91,50 @@ public class practice1 {
         }
     }
 }
+
+ */
+
+// check the number is odd or even
+/* import java.util.Scanner;
+public class practice1 {
+    public static void main(String [] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Enter a number");
+        int num = sc.nextInt();
+        if (num % 2 < 1) {
+            System.out.println("The number is even");
+        } else {
+            System.out.println("The number is odd");
+        }
+    }
+}
+
+ */
+// if else practice
+import java.util.Scanner;
+public class practice1 {
+    public static void main(String [] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter two numbers");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        if (a == b) {
+            System.out.println("Two numbers are the same");
+        } else if (a > b) {
+            System.out.println("First number is greater than the second");
+        } else if (a < b) {
+            System.out.println("First number is smaller than the second");
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
