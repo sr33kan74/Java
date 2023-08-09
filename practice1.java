@@ -111,6 +111,7 @@ public class practice1 {
 
  */
 // if else practice
+/*
 import java.util.Scanner;
 public class practice1 {
     public static void main(String [] args) {
@@ -130,10 +131,43 @@ public class practice1 {
 }
 
 
+ */
+
+// learning for loop
+/*
+import java.util.Scanner;
+public class practice1 {
+    public static void main(String[] args) {
+        Scanner sr = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int n = sr.nextInt();
+        System.out.println("Numbers from 1 to  "  + n + ":");
+        for (int i = 1; i <= n; i ++) {
+            System.out.print(i + " ");
+        }
+        sr.close();
+    }
+}
 
 
+ */
 
+// again some practice
+import java.util.Scanner;
+public class practice1 {
+    public static void main(String[] args) {
+        Scanner sr = new Scanner(System.in);
+        System.out.println("Are you a vegetarian ?");
+        System.out.println("Type yes or no");
+        String x = sr.nextLine();
 
+        if (x.equals("yes")) {
+            System.out.println("You should try a Shawarma!");
+        } else {
+            System.out.println("Good job!");
+		}
+    }
+}
 
 
 
