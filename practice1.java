@@ -153,6 +153,7 @@ public class practice1 {
  */
 
 // again some practice
+/*
 import java.util.Scanner;
 public class practice1 {
     public static void main(String[] args) {
@@ -170,5 +171,21 @@ public class practice1 {
 }
 
 
+ */
 
+// some practice in if else
+import java.util.Scanner;
+public class practice1 {
+    public static void main (String [] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your age");
+        int x = sc.nextInt();
+
+        if (x > 20) {
+            System.out.println("You are too old");
+        } else {
+            System.out.println("Grow up !");
+        }
+    }
+}
 
