@@ -74,7 +74,7 @@ public class forloop {
  */
 
 // practicing for loop
-
+/*
 import java.util.Scanner;
 public class forloop {
     public static void main (String [] args) {
@@ -87,5 +87,25 @@ public class forloop {
             factorial *= i;
         }
         System.out.println("Factorial of " + n + " is " + factorial);
+    }
+}
+
+ */
+
+// for loop practice
+
+import java.util.Scanner;
+public class forloop {
+    public static void main (String [] args) {
+        Scanner sr = new Scanner(System.in);
+        System.out.println("Enter a number");
+
+        int n = sr.nextInt();
+        int factorial = 1;
+
+        for (int i = 1; i <= 10; i ++) {
+            factorial *= i;
+        }
+        System.out.println("Factorial of number " + n + " = " + factorial);
     }
 }
