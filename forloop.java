@@ -134,6 +134,7 @@ public class forloop {
 
 // for loop practice
 
+/*
 import java.util.Scanner;
 public class forloop {
     public static void main(String [] args) {
@@ -149,3 +150,5 @@ public class forloop {
         System.out.println(" Factorial of the number is  " + factorial);
     }
 }
+
+ */
