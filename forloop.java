@@ -163,7 +163,7 @@ public class forloop {
         System.out.println("Enter a number");
         int x = sr.nextInt();
 
-        if (x * 2 == 0)  {
+        if (x % 2 == 0)  {
             System.out.println("The number is even");
         } else {
             System.out.println("The number is odd");
