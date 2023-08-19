@@ -155,7 +155,7 @@ public class forloop {
 // no comments
 
 // simple java program
-
+/*
 import java.util.Scanner;
 public class forloop {
     public static void main (String [] args) {
@@ -170,3 +170,5 @@ public class forloop {
         }
     }
 }
+
+ */
