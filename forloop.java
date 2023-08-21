@@ -172,3 +172,26 @@ public class forloop {
 }
 
  */
+
+// some practice
+import java.util.Scanner;
+public class forloop {
+    public static void main(String [] args) {
+        Scanner sr = new Scanner(System.in);
+        System.out.println("Enter a number ");
+        int x = sr.nextInt();
+        System.out.println(x);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
